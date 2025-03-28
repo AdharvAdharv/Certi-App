@@ -35,3 +35,10 @@ First, clone the repository and navigate into the project directory:
 ```sh
 git clone https://github.com/your-username/certificate-app.git  
 cd certificate-app
+
+### 1️⃣ Clone the Repository  
+First, clone the repository and navigate into the project directory:  
+
+```sh
+git clone https://github.com/your-username/certificate-app.git  
+cd certificate-app
