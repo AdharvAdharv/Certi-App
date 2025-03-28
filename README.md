@@ -45,8 +45,8 @@ Now, install the required dependencies for both the frontend and backend.
 
 cd client  
 npm install
-This command will install all necessary packages for the React frontend.
 ```
+This command will install all necessary packages for the React frontend.
 ✅ Install Backend Dependencies
 ```sh
 
