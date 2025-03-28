@@ -15,7 +15,7 @@ Certificate App is a web application that allows users to **issue certificates, 
 
 - **Frontend:** React, Tailwind CSS
 - **Backend:** Node.js (Express.js)
-- **Database:** MongoDB (or any preferred database)
+- **Database:** MongoDB 
 - **Containerization:** Docker
 
 ## 📦 Installation & Setup
@@ -25,51 +25,13 @@ Ensure you have the following installed:
 - **Node.js** (v16 or later)
 - **Docker** (for containerized deployment)
 - **MongoDB** (if not using a Dockerized database)
+## 📦 Installation & Setup  
 
-### 1️⃣ Clone the Repository
+Follow these steps to set up the project on your local machine.  
 
-git clone https://github.com/your-username/certificate-app.git
+### 1️⃣ Clone the Repository  
+First, clone the repository and navigate into the project directory:  
+
+```sh
+git clone https://github.com/your-username/certificate-app.git  
 cd certificate-app
-
-### 2️⃣ Install Dependencies
-🏗 Install Frontend Dependencies
-sh
-Copy
-Edit
-cd client
-npm install
-This will install all necessary packages for the React frontend.
-
-🏗 Install Backend Dependencies
-sh
-Copy
-Edit
-cd ../server
-npm install
-This will install all required dependencies for the Node.js backend.
-
-### 3️⃣ Run the Application
-▶ Start Backend Server
-sh
-Copy
-Edit
-cd server
-npm start
-This will start the Express.js server.
-
-▶ Start Frontend Server
-sh
-Copy
-Edit
-cd ../client
-npm start
-This will launch the React frontend in the browser.
-
-### 4️⃣ Run with Docker
-To run the entire application using Docker, ensure you have Docker Compose installed and execute:
-
-sh
-Copy
-Edit
-docker-compose up -d
-This will start the frontend, backend, and database in separate containers.
