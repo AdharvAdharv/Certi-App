@@ -1,14 +1,14 @@
 services:
   mongodb:
     image: mongo:latest
-    container_name: mongodb
+    container_name: mongodb_new
     ports:
       - 27017:27017
     volumes:
       - mongo_volume:/data/db
   api:
     image: api
-    container_name: api
+    container_name: api_new
     depends_on:
       - mongodb
     build: 
@@ -19,7 +19,7 @@ services:
 
   ui:
     image: ui
-    container_name: ui
+    container_name: ui_new
     depends_on:
       - api
     build:
