@@ -35,10 +35,50 @@ First, clone the repository and navigate into the project directory:
 ```sh
 git clone https://github.com/your-username/certificate-app.git  
 cd certificate-app
+```
 
-### 1️⃣ Clone the Repository  
-First, clone the repository and navigate into the project directory:  
+2️⃣ Install Dependencies
+Now, install the required dependencies for both the frontend and backend.
+
+✅ Install Frontend Dependencies
+```sh
+
+cd client  
+npm install
+This command will install all necessary packages for the React frontend.
+```
+✅ Install Backend Dependencies
+```sh
+
+cd ../server  
+npm install
+```
+This will install all required dependencies for the Node.js (Express.js) backend.
+
+3️⃣ Run the Application
+After installing dependencies, start the frontend and backend servers.
+
+▶ Start Backend Server
+```sh
+
+cd server  
+npm start
+```
+This will start the Express.js backend server.
+
+▶ Start Frontend Server
+```sh
+
+cd ../client  
+npm start
+```
+This will launch the React frontend in your browser.
+
+4️⃣ Run with Docker
+To run the application using Docker, make sure Docker and Docker Compose are installed, then execute:
 
 ```sh
-git clone https://github.com/your-username/certificate-app.git  
-cd certificate-app
+
+docker-compose up -d
+```
+This will start the frontend, backend, and database in separate containers.
